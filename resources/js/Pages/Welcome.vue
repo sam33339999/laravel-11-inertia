@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div>
+    <div class="bg-red-50">
         <h1>Welcome to your Vue 3 application!</h1>
     </div>
 </template>
