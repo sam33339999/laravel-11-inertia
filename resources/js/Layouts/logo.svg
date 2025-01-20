@@ -1,0 +1,14 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- 主要形狀 -->
+    <path
+      d="M25,25 L75,25 L75,75 L25,75"
+      fill="none"
+      stroke="#000"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- 內部裝飾線條 -->
+    <line x1="40" y1="40" x2="60" y2="40" stroke="#000" stroke-width="2"/>
+    <line x1="40" y1="60" x2="60" y2="60" stroke="#000" stroke-width="2"/>
+  </svg>
