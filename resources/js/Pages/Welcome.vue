@@ -4,5 +4,7 @@ import Layout from '@/js/Layouts/Main.vue';
 </script>
 
 <template>
-  <Layout>AAA</Layout>
+  <Layout>
+    <v-calendar />
+  </Layout>
 </template>
