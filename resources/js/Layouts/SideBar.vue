@@ -20,7 +20,7 @@ const dashboardStore = useDashboardStore();
     class="fixed bottom-9 right-10 lg:left-5 lg:top-3 z-20 text-center items-center"
     @click="() => (dashboardStore.collapsed = !dashboardStore.collapsed)"
   ></a-button>
-  <a-layout-sider theme="light" class="rounded-xl absolute my-1 ml-2" :class="{ hidden: dashboardStore.collapsed }">
+  <a-layout-sider theme="light" class="rounded-xl absolute my-2 ml-2" :class="{ hidden: dashboardStore.collapsed }">
     <div class="w-full rounded-xl bg-blue-50 text-center py-6">
       <a href="/" class="text-2xl"> System </a>
     </div>

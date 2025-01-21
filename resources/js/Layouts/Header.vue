@@ -7,6 +7,6 @@ const dashboardStore = useDashboardStore();
 
 <template>
   <a-layout-header class="p-0 text-white justify-between flex">
-    <a-row class="text-white h-full items-center justify-between">ssdasdsa</a-row>
+    <a-row class="text-white h-full items-center justify-between">我是Header</a-row>
   </a-layout-header>
 </template>

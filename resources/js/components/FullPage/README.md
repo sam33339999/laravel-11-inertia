@@ -1,3 +1,4 @@
+```vue
 <script setup lang="ts">
 import { ref } from 'vue';
 import FWrapper from '@/js/components/FullPage/Wrapper.vue';
@@ -14,3 +15,4 @@ import FItem from '@/js/components/FullPage/Item.vue';
     <f-item class="bg-yellow-300"><div class="text-4xl">hhh</div></f-item>
   </f-wrapper>
 </template>
+```

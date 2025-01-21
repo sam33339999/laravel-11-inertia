@@ -5,8 +5,6 @@ import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
 import path from 'path';
 
-console.log(path.resolve(__dirname, './resources'));
-
 export default defineConfig({
   plugins: [
     laravel({
