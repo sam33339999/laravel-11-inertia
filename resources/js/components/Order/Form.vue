@@ -83,11 +83,7 @@ const columns = [
           :row-class-name="(_record: any, index: number) => (index % 2 === 1 ? 'bg-gray-50' : null)"
           :pagination="false"
         >
-          <template #summary>
-            <a-table-row>
-              <a-table-cell colspan="24" class="text-right>">總計</a-table-cell>
-            </a-table-row>
-          </template>
+          <template #summary> 總結 </template>
         </a-table>
 
         {{ props.quotation.remark }}
