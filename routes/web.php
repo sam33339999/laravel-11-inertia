@@ -7,5 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/', [ExampleController::class, 'index']);
+Route::get('/blog', [ExampleController::class, 'blog']);

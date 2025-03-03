@@ -13,4 +13,12 @@ class ExampleController extends Controller
             'age' => 30,
         ]);
     }
+
+    public function blog(Request $request)
+    {
+        return inertia('Blog', [
+            'title' => 'My Blog',
+            'content' => 'Welcome to my blog page!',
+        ]);
+    }
 }
